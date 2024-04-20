@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    font-family: "Raleway", sans-serif;
+}
+.principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.header{
+height: 73px;
+color: white;
+background-color: black;
+text-align: center;
+padding-top: 2rem;
+font-size: 30px;
+
+}
+.iguanaGigante{
+background-image: url("../img/bg-header.jpg");
+background-position: center;
+background-size: cover;
+width: 100%;
+height: 727px;
+}
+.informacion{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 76px 150px 76px 150px;
+    font-weight: 300;
+}
+.informativo{
+    width: 50%;
+    height: 197px;
+    vertical-align: middle;
+}
+.iguana1{
+    width: 50%;
+}
+.iguana1 img{
+    width: 399px;
+    height: 237px;
+    margin-left: 2rem;
+}
+.caracteristicas{
+    text-align: center;
+    background-color: black;
+    color: white;
+    opacity: 0.97;
+    height: 300px;
+    font-size: 2rem;
+    font-weight: 500;
+    padding-top: 4rem;
+}
+.virtudes{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    padding: 50px;
+}
+.virtudes p{
+    font-weight: 300;
+    padding-top: 15px;
+}
+.imagenes{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    background-color: black;
+    opacity: 0.96;
+    padding: 73px 150px 73px 150px;
+}
+.iguanas img{
+    width: 316px;
+    height: 202px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 102px;
+    background-color: black;
+    opacity: 0.94;
+    color: white;
+    font-weight: 300;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
